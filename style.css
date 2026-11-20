@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #fff3bf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 850px;
+    
+}
+
+.title{
+    margin-bottom: 40px;
+}
+
+.title h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.title p{
+    font-size: 20px;
+    color: #99917a;
+}
+
+.task-form{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 35px;
+}
+
+.task-form input{
+    padding: 10px 10px;
+    border: 2px solid #eee;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+.task-form button{
+    background-color: #d58be8;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 12px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #f5f9fc;
+    padding: 22px;
+    border-radius: 12px;
+}
+
+.item checkbox{
+    width: 20px;
+    height: 20px;
+    accent-color: #d58be8;
+}
+
+.item name{
+    flex: 1;
+}
+
+.item button{
+    background-color: #f27878;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: #99917a;
+    padding: 20px;
+}
+
+.footer p{
+    gap: 15px;
+}
+
+
+
